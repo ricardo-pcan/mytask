@@ -1,0 +1,10 @@
+{
+    "raspberry": {
+        "user": "pi",
+        "hosts": ["192.168.1.64"],
+        "site_dir": "~/",
+        "command_prefixes": [],
+        "transmission_user": "transmission",
+        "transmission_pass": "2transmission31992"
+    }
+}
