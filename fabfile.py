@@ -33,6 +33,11 @@ def refresh_list():
 def download_list_videos():
     run(""" youtube-dl -a {site_dir}/.config/youtube-dl/list_videos""".format(**env))
 
+@task
+def sync_videos():
+    with cd (env.site_dir):
+        run(""" rsync {user_remote}@{remote_host}:{remote_videos_folder} {videos_folder}""".format(**env))
+
 @task 
 def trans_add(url, paused=True):
     env.torrent_url = url

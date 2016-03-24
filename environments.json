@@ -5,6 +5,7 @@
         "site_dir": "~/",
         "command_prefixes": [],
         "transmission_user": "transmission",
-        "transmission_pass": "2transmission31992"
+        "transmission_pass": "2transmission31992",
+        "key_filename": "~/.ssh/personal"
     }
 }
