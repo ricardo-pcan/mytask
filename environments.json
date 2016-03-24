@@ -6,6 +6,7 @@
         "command_prefixes": [],
         "transmission_user": "transmission",
         "transmission_pass": "2transmission31992",
+        "remote_folder": "/media/storage",
         "key_filename": "~/.ssh/personal"
     }
 }
